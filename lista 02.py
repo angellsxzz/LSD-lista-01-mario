@@ -1,4 +1,5 @@
 #Verificação simples com and
+print("verificação de dois valores)
 x = float(input("Digite o primeiro valor: "))
 y = float(input("Digite o segundo valor: "))
 if x > 0 and y > 0:
@@ -9,6 +10,7 @@ else:
     print("Nenhum dos valores é positivo")
 
 #acesso com or
+print("acesso ao sistema")
 idade = int(input("Digite a idade: "))
 if idade >= 18 or idade >= 65:
     print("Pode acessar o conteúdo")
@@ -19,6 +21,7 @@ if not (idade >= 18):
     exit(0)
 
 #condição combinada
+print("ap ou rep")
 Nota = float(input("Digite a sua nota 0/10: "))
 Frequencia = float(input("Digite a sua frequência 0/100: "))
 if Nota >= 7 and Frequencia >= 75:
@@ -31,6 +34,7 @@ else:
             print("Frequência inválida")
 
 #login
+print("login no sistema")
 usuario = input("Digite o nome de usuário: ")
 senha = input("Digite a senha: ")
 if usuario == "admin" and senha == "1234":
