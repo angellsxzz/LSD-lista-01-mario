@@ -1,5 +1,5 @@
 #Verificação simples com and
-print("verificação de dois valores)
+print("verificação de dois valores")
 x = float(input("Digite o primeiro valor: "))
 y = float(input("Digite o segundo valor: "))
 if x > 0 and y > 0:
